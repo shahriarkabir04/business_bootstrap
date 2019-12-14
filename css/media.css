@@ -1,0 +1,58 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #about,
+    #approch,
+    #work,
+    #newsletter {
+        padding: 70px 0;
+    }
+    .mainav .dot {
+        display: none;
+    }
+    #header form {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    #banner .custom-row {
+        min-height: 500px;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+    }
+    .banner-content p {
+        font-size: 25px;
+    }
+    .banner-content .banner-btn {
+        font-size: 18px;
+        padding: 20px 30px;
+    }
+    .common-header {
+        padding-bottom: 35px;
+    }
+    .common-header h1 {
+        font-size: 30px;
+    }
+    .common-header p {
+        font-size: 16px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
